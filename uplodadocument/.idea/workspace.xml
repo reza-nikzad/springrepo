@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9c7ca4bc-8f2b-49e0-bee6-c1b9667af34b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1gUIfuELO2RgJCYAFsmAGQtCQDq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunManager">
+    <configuration name="UplodadocumentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="uplodadocument" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.reza.uplodadocument.UplodadocumentApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9c7ca4bc-8f2b-49e0-bee6-c1b9667af34b" name="Default Changelist" comment="" />
+      <created>1598162850496</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598162850496</updated>
+      <workItem from="1598162858904" duration="11003000" />
+      <workItem from="1598197706318" duration="5000" />
+      <workItem from="1598197807792" duration="76000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="440" y="94" width="1018" height="917" key="#Intentions" timestamp="1598177510475">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="440" y="94" width="1018" height="917" key="#Intentions/0.0.1920.1032@0.0.1920.1032" timestamp="1598177510475" />
+    <state x="498" y="173" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598165331453">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="498" y="173" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1598165331453" />
+    <state x="609" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1598165513841">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="609" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1032@0.0.1920.1032" timestamp="1598165513841" />
+    <state width="314" height="242" key="DatabaseViewActions_Filter" timestamp="1598165355781">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="314" height="242" key="DatabaseViewActions_Filter/0.0.1920.1032@0.0.1920.1032" timestamp="1598165355781" />
+    <state width="1516" height="173" key="GridCell.Tab.0.bottom" timestamp="1598193711037">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1516" height="173" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1598193711037" />
+    <state width="1516" height="173" key="GridCell.Tab.0.center" timestamp="1598193711036">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1516" height="173" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1598193711036" />
+    <state width="1516" height="173" key="GridCell.Tab.0.left" timestamp="1598193711036">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1516" height="173" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1598193711036" />
+    <state width="1516" height="173" key="GridCell.Tab.0.right" timestamp="1598193711037">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1516" height="173" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1598193711037" />
+    <state width="1516" height="173" key="GridCell.Tab.1.bottom" timestamp="1598193711038">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1516" height="173" key="GridCell.Tab.1.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1598193711038" />
+    <state width="1516" height="173" key="GridCell.Tab.1.center" timestamp="1598193711038">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1516" height="173" key="GridCell.Tab.1.center/0.0.1920.1032@0.0.1920.1032" timestamp="1598193711038" />
+    <state width="1516" height="173" key="GridCell.Tab.1.left" timestamp="1598193711037">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1516" height="173" key="GridCell.Tab.1.left/0.0.1920.1032@0.0.1920.1032" timestamp="1598193711037" />
+    <state width="1516" height="173" key="GridCell.Tab.1.right" timestamp="1598193711038">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1516" height="173" key="GridCell.Tab.1.right/0.0.1920.1032@0.0.1920.1032" timestamp="1598193711038" />
+    <state width="331" height="571" key="HiddenNamespacesPopup" timestamp="1598165314127">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="331" height="571" key="HiddenNamespacesPopup/0.0.1920.1032@0.0.1920.1032" timestamp="1598165314127" />
+    <state x="495" y="70" key="SettingsEditor" timestamp="1598197883079">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="495" y="70" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1598197883079" />
+    <state x="987" y="376" width="294" height="309" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1598165055836">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="987" y="376" width="294" height="309" key="com.intellij.database.actions.DdlActions$CreateObject$1/0.0.1920.1032@0.0.1920.1032" timestamp="1598165055836" />
+    <state x="1025" y="462" key="com.intellij.database.run.ParametersPanel.Standalone" timestamp="1598165021984">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="1025" y="462" key="com.intellij.database.run.ParametersPanel.Standalone/0.0.1920.1032@0.0.1920.1032" timestamp="1598165021984" />
+    <state x="850" y="425" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598178843481">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="850" y="425" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1032@0.0.1920.1032" timestamp="1598178843481" />
+    <state x="549" y="156" width="716" height="738" key="find.popup" timestamp="1598164198229">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="549" y="156" width="716" height="738" key="find.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1598164198229" />
+  </component>
+</project>
