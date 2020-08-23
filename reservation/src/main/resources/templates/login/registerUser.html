@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+    <meta charset="UTF-8">
+    <title>Register User </title>
+</head>
+
+<body>
+<h2> Register User:  </h2>
+<form action="#"  th:action="@{/registerUser}" th:object="${user}"  method="post">
+    <pre>
+        First Name:         <input type="text" th:field="*{firstName}"/>
+        Last Name:          <input type="text" th:field="*{lastName}"/>
+        Email Address:      <input type="text" th:field="*{email}"/>
+        Password:           <input type="password" th:name="pass" th:field="*{password}"/>
+        Confirm Password:   <input type="password" />
+
+                    <input type="submit" value="Register"/>
+                    <input type="submit" value="Return" th:formaction="@{/}"/>
+    </pre>
+</form>
+<a style="color: red" th:text="${msg}"> </a>
+</body>
+</html>

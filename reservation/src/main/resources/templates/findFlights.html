@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+    <meta charset="UTF-8">
+    <title>Find Flights</title>
+</head>
+<h2>Find Flights: </h2>
+<body>
+<form action="#" th:action="@{/showFlights}" method="post">
+        From:           <input type="text" name="from" th:name="from" />
+        To:             <input type="text" name="to" th:name="to"/>
+        Departure Date: <input type="text" name="date" th:name="date" />
+        <input type="submit" value="Search" />
+</form>
+
+</body>
+</html>

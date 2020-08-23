@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+    <meta charset="UTF-8">
+    <title>Flight Information: </title>
+</head>
+<body>
+<form action="#" th:action="@{/confirmCheckIn}" method="post">
+    <pre>
+        <h3>Flight Information: </h3>
+        Flight Number:  <a th:text="${reservation.flight.flightNumber}">-</a>
+        Airline:        <a th:text="${reservation.flight.operatingAirlines}">-</a>
+        From:           <a th:text="${reservation.flight.departureCity}">-</a>
+        To:             <a th:text="${reservation.flight.arrivalCity}">-</a>
+        Date:           <a th:text="${reservation.flight.dateOfDeparture}">-</a>
+        <h3>Passenger Information: </h3>
+        First Name :    <a th:text="${reservation.passenger.firstName}">-</a>
+        Last Name:      <a th:text="${reservation.passenger.lastName}">-</a>
+        Middle Name:    <a th:text="${reservation.passenger.middleName}">-</a>
+        Email Address:  <a th:text="${reservation.passenger.email}">-</a>
+        Phone No.:      <a th:text="${reservation.passenger.phone}">-</a>
+        Number Of Bags: <input type="text" th:id="noOfBags" th:name="noOfBags" >
+        <input type="hidden" th:id="id" th:name="id" th:value="${reservation.id}">
+        <input type="submit" value="Check In">
+        </pre>
+</form>
+</body>
+</html>

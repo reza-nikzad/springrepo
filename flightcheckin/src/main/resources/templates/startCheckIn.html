@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+    <meta charset="UTF-8">
+    <title>Start Check: </title>
+</head>
+<body>
+<form th:action="@{/showFlightInfo}" method="post">
+    Enter Reservation Id: <input type="text" th:id="id" th:name="id" >
+    <input type="submit" value="Enter">
+</form>
+</body>
+</html>

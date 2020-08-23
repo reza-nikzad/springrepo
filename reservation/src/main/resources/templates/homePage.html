@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+</head>
+<body>
+<form action="#" th:action="@{/}" method="post" />
+<pre>
+    <h3>Fight Reservation:
+    Doesn't have any account:   <input type="submit" value="Register" th:formaction="@{/showReg}" />
+    Have an account:            <input type="submit" value="Log In" th:formaction="@{/showLogin}" />
+</pre>
+<a style="color: red" th:text="${msg}"> </a>
+</body>
+</html>

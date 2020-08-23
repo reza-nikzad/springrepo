@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      xmlns:display="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Reserve A Flight </title>
+</head>
+<body>
+<h2>Reservation page: </h2>
+<pre><h3>Flight Information: </h3>
+    Flight Number :     <a th:text="${flight.flightNumber}"> flight Number</a>
+    Airline:            <a th:text="${flight.operatingAirlines}"> Airline</a>
+    From:               <a th:text="${flight.departureCity}"> From</a>
+    to:                 <a th:text="${flight.arrivalCity}"> to</a>
+    Date:               <a th:text="${flight.estimatedDepartureTime}"> Date</a>
+</pre>
+<form th:action="@{'/completeReservation'}" th:object="${request}" method="post">
+<pre><h3>Passenger Information: </h3>
+    First Name:     <input type="text" name="passengerFirstName" th:field="*{passengerFirstName}">
+    Last Name:      <input type="text" name="passengerLastName" th:field="*{passengerLastName}">
+    Middle Name:    <input type="text" name="passengerLastName" th:field="*{passengerMiddleName}">
+    Email:          <input type="text" name="passengerEmail" th:field="*{passengerEmail}">
+    Phone Number:   <input type="text" name="passengerPhone" th:field="*{passengerPhone}">
+    <h3>Passenger Credit Card: </h3>
+    Name on Card:   <input type="text" name="passengerCardName" th:field="*{passengerCardName}" >
+    Card No.:       <input type="text" name="passengerCardNo" th:field="*{passengerCardNo}">
+    Expiry Date:    <input type="text" name="expDate" th:field="*{expDate}">
+    CVV2:           <input type="text" name="cvv2" th:field="*{cvv2}">
+    password:       <input type="password" name="cCPass" th:field="*{cCPass}">
+ <input type="hidden" th:id="flightId" th:name="flightId" th:value="${flight.id}" >
+    <input type="submit" value="Book" >
+</pre>
+  <!--  <select type="hidden" id="flightId" name="flightId" th:field="*{flightId}" display:none />
+    <option th:value="${flight.id}" ></option>
+    <option th:selected="${flight.id} == *{flightId}" >
+    </option>
+    </select>-->
+</form>
+</body>
+</html>

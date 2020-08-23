@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+    <meta charset="UTF-8">
+    <title>List of Flights</title>
+</head>
+<body>
+<h2>Available Flights: </h2>
+<table>
+    <tr>
+        <th >Operating Airlines</th>
+        <th >Departure City </th>
+        <th >Arrival City </th>
+        <th >Departure Time </th>
+    </tr>
+    <tr th:each="l : ${flights}" >
+        <td th:text="${l.operatingAirlines}" >  code  </td>
+        <td th:text="${l.departureCity}" >  name  </td>
+        <td th:text="${l.arrivalCity}" >  code  </td>
+        <td th:text="${l.estimatedDepartureTime}" >  name  </td>
+        <td ><a th:href="@{'/bookFlight' (id=${l.id})}" > Book </a> </td>
+    </tr>
+
+</table>
+
+</body>
+</html>
