@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c7ca4bc-8f2b-49e0-bee6-c1b9667af34b" name="Default Changelist" comment="" />
+    <list default="true" id="9c7ca4bc-8f2b-49e0-bee6-c1b9667af34b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,6 +85,8 @@
       <workItem from="1598162858904" duration="11003000" />
       <workItem from="1598197706318" duration="5000" />
       <workItem from="1598197807792" duration="402000" />
+      <workItem from="1598198551244" duration="50000" />
+      <workItem from="1598343240562" duration="560000" />
     </task>
     <servers />
   </component>
@@ -100,11 +105,20 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/uploaddocuments" />
+    </ignored-roots>
+  </component>
   <component name="WindowStateProjectService">
     <state x="440" y="94" width="1018" height="917" key="#Intentions" timestamp="1598177510475">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="440" y="94" width="1018" height="917" key="#Intentions/0.0.1920.1032@0.0.1920.1032" timestamp="1598177510475" />
+    <state x="812" y="184" width="639" height="509" key="#Notifications" timestamp="1598198567764">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="812" y="184" width="639" height="509" key="#Notifications/0.0.1920.1032@0.0.1920.1032" timestamp="1598198567764" />
     <state x="498" y="173" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598165331453">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
@@ -117,6 +131,10 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="314" height="242" key="DatabaseViewActions_Filter/0.0.1920.1032@0.0.1920.1032" timestamp="1598165355781" />
+    <state x="681" y="197" key="FileChooserDialogImpl" timestamp="1598343781274">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="681" y="197" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1598343781274" />
     <state width="1516" height="173" key="GridCell.Tab.0.bottom" timestamp="1598193711037">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
@@ -153,10 +171,10 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="331" height="571" key="HiddenNamespacesPopup/0.0.1920.1032@0.0.1920.1032" timestamp="1598165314127" />
-    <state x="495" y="70" key="SettingsEditor" timestamp="1598197883079">
+    <state x="495" y="70" key="SettingsEditor" timestamp="1598198595115">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="495" y="70" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1598197883079" />
+    <state x="495" y="70" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1598198595115" />
     <state x="987" y="376" width="294" height="309" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1598165055836">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
@@ -173,5 +191,9 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="549" y="156" width="716" height="738" key="find.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1598164198229" />
+    <state x="222" y="100" key="new project wizard" timestamp="1598343799889">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="222" y="100" key="new project wizard/0.0.1920.1032@0.0.1920.1032" timestamp="1598343799889" />
   </component>
 </project>

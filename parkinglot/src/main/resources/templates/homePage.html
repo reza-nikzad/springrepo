@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2>Home Page:</h2>
+<form action="#" th:action="@{/reserveLot}" th:object="${car}" method="post">
+    <pre>
+    Parking No:      <input type="text" name="id" th:field="*{id}">
+    Car Numberplate: <input type="text" name="numberplate" th:field="*{numberplate}">
+         <input type="hidden" th:id="entertime" th:name="entertime" th:value="0" >
+    <input type="submit" value="Reserve"  >
+    </pre>
+</form>
+<table >
+    <tr>
+        <th>Park No    </th>
+        <th>Car NumberPlate    </th>
+        <th>Exit    </th>
+    </tr>
+    <tr th:each="car : ${carList}">
+        <th th:text="${car.id}">NA</th>
+        <th th:text="${car.numberplate}">NA</th>
+        <th><a th:href="@{'/exitCar' (id=${car.id})}">Exit</a></th>
+    </tr>
+
+</table>
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+    <meta charset="UTF-8">
+    <title>Exit fro Parking Lot</title>
+</head>
+<body>
+<form action="#" th:action="@{'/paid' ((id=${car.id}))}" th:object="${car}">
+    <pre>
+    Car Numberplate:    <a th:text="${car.numberplate}"></a>
+    Price:              <a th:text="${time}"></a>
+        <input type="submit" value="Pay">
+    </pre>
+</form>
+</body>
+</html>
